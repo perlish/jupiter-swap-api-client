@@ -2,7 +2,7 @@
 name = "jupiter-swap-api-client"
 version = "0.1.0"
 description = "Jupiter Swap API rust client"
-edition = { workspace = true }
+edition = "2021"
 
 [dependencies]
 anyhow = "1"
