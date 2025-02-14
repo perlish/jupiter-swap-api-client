@@ -1303,17 +1303,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0206175f82b8d6bf6652ff7d71a1e27fd2e4efde587fd368662814d6ec1d9ce0"
 
 [[package]]
-name = "example"
-version = "0.1.0"
-dependencies = [
- "bincode",
- "jupiter-swap-api-client",
- "solana-client",
- "solana-sdk",
- "tokio",
-]
-
-[[package]]
 name = "fastrand"
 version = "2.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1985,6 +1974,7 @@ dependencies = [
  "serde_json",
  "serde_qs",
  "solana-account-decoder",
+ "solana-client",
  "solana-sdk",
  "thiserror 2.0.4",
 ]
